@@ -52,9 +52,11 @@ struct ContentView: View {
                 let correctionWord = text
                 
                 let words = messages.last(where: { $0.sent })?.text.split(separator: " ")
-                let similarity: CGFloat
+                let similarity: CGFloat = 0
                 
-                words.forEach
+                if let words {
+                    
+                }
             }
         }
     }
